@@ -1,0 +1,156 @@
+
+body {
+  font-family: : "Montserrat", sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+
+h1 {
+/* font-family: 'Montserrat-Black'; */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+h2 {
+/* font-family: 'Montserrat-Black'; */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  /* color: white; */
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-family: "Ubuntu";
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.rotate-20-clockwise {
+  background-color: transparent;
+  /* outline: 2px dashed; */ 
+  transform: rotate(20deg);
+}
+
+/* Center all Stuff of "Features" */
+section#features {
+  text-align: center;
+  margin: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
+}
+
+/* Main Message text */
+section#features h3{
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-weight: 900;
+  color: Black;
+}
+
+/* Auxilary Text */
+section#features p{
+  color: #8f8f8f;
+}
+
+/* Awesome Font Decorations. */
+section#features i{
+  color: #ef8172;
+  margin-bottom: 1rem;
+  /* font-size: 4rem; */
+}
+/* And Hover Color */
+section#features i:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+/* Testimonial Section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+section#pricing p{
+  color: #8f8f8f;
+  font-family: "Montserrat", sans-serif;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
